@@ -1,3 +1,7 @@
-Người có khả năng làm thì thấy đéo làm cái cc gì, toàn đi hỏi khó dân đen. Dây với chả dứt.
-Chỉ giỏi nói ngon nói ngọt cho bọn dân đen nó mát lòng mát dạ. Thôi bớt nói mà đi làm dùm đi.
-le van duyet
+Độ phân giải hiển thị mặc định trên hầu hết các điện thoại Xiaomi là 440 hoặc 480 DPI, kể cả với chiếc Mi Mix màn hình 6,4" tuyệt đẹp. Với mình đây là điều không thể chấp nhận được vì màn hình 6,4" mà hiển thị lượng nội dung chẳng khác gì so với một cái điện thoại 5". Lý do mà mình không thích mức 480 DPI mặc định của Mi Mix là nó làm mọi thứ to lên một cách ngớ ngẩn, kỳ dị và thao tác cũng không tiện. Ngay cả bàn phím cũng bỗng nhiên to lên quá mức khiến việc gõ trở nên khó khăn vì phải với ngón tay lên cao hơn so với bình thường.
+
+Để chỉnh lại DPI, mình sử dụng tool do chính mình phát triển (quảng cáo chút xíu :D). Anh em có thể download và xem hướng dẫn chi tiết cách xài tool ở topic này: Mời anh em thử công cụ đổi độ phân giải hiển thị cho máy Android, không cần root, không cần gõ lệnh.
+
+Trên chiếc Mi Mix của mình, mình đưa DPI xuống tận 400 thì mới cảm thấy vừa lòng, mức này tương tự như con Lumia 1520 trước đây mình từng xài, cũng ngang ngửa với Sony Xperia Z Ultra nhiều năm về trước. Lúc này mọi thứ trở nên tuyệt vời hơn rất nhiều, kích thước hiển thị vừa phải, hợp lý, không quá nhỏ mà cũng chẳng quá to. Với anh em nào xài máy MIUI mà dùng màn hình cỡ 5"-5,5" thì đừng chỉnh thấp như mình, nên để mức 420 là vừa, thấp quá thì mọi icon và chữ nên bé tí rất khó chịu. Máy nào DPI trên 500 thì nên chỉnh dần dần từ mức mặc định xuống thấp hơn một chút cho tới khi bạn cảm thấy hài lòng.
+
+Vấn đề của việc chỉnh DPI trên MIUI đó là icon sau khi chỉnh sẽ bị một hình vuông gì đó xuất hiện ở góc trên bên trái. Đây là một bug của ROM MIUI và nó đang được khắc phục (link tới bug trên MIUI Website ở đây). Trong khi chờ fix, chúng ta sẽ làm một số thứ để giảm hiện tượng ô vuông này.
