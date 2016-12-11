@@ -4,7 +4,7 @@ Vitk - A Vietnamese Text Processing Toolkit, is the third release of a Vietnames
 
 However, vn.vitk readily scalable for large data processing, build on top of Apache Spark. This working as command line tools, base on Spark running background, and cannot using as programming.
 
-**pyspark-vn.vitk** is a small snippet code, modified source code of vn.vitk to run on PySpark, using py4j calling to vn.vitk's Java code.
+**pyspark-vn.vitk** is a small snippet code, modified source code of **vn.vitk** (custom version [vn.vitk-3.0.jar](lib/vn.vitk-3.0.jar)) to run on PySpark, using py4j calling to vn.vitk's Java code.
 
 See the tutorial here in Vietnamese.
 
@@ -18,6 +18,19 @@ See the tutorial here in Vietnamese.
 2. Create a topic branch for your changes
 3. Ensure that you provide documentation and test coverage for your changes (patches won’t be accepted without)
 4. Create a pull request on Github (these are also a great place to start a conversation around a patch as early as possible)
+
+### * Using Jupyter Notebook
+See my blog how to using Notebook with Spark: http://blog.duyetdev.com/2016/09/chay-apache-spark-voi-jupiter-notebook.html
+
+### ** Submit vn.vitk-3.0.jar to Spark in Notebook
+
+```
+export PYSPARK_DRIVER_PYTHON=ipython
+export PYSPARK_DRIVER_PYTHON_OPTS="notebook --NotebookApp.open_browser=False --NotebookApp.ip='*' --NotebookApp.port=8880"
+export SPARK_HOME=~/spark-1.6.2-bin-hadoop2.6 # Path to home of Spark
+
+$SPARK_HOME/bin/pyspark --jars=./lib/vn.vitk-3.0.jar
+```
 
 
 # License
