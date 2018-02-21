@@ -6,7 +6,7 @@ However, vn.vitk readily scalable for large data processing, build on top of Apa
 
 **pyspark-vn.vitk** is a small snippet code, modified source code of **vn.vitk** (custom version [vn.vitk-3.0.jar](lib/vn.vitk-3.0.jar)) to run on PySpark, using py4j calling to vn.vitk's Java code.
 
-See the tutorial here in Vietnamese.
+See my tutorial here in Vietnamese: http://blog.duyet.net/2016/12/vntokenizer-tren-pyspark.html
 
 # Converted to PySpark 
 
