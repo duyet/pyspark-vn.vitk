@@ -20,7 +20,7 @@ See the tutorial here in Vietnamese.
 4. Create a pull request on Github (these are also a great place to start a conversation around a patch as early as possible)
 
 ### * Using Jupyter Notebook
-See my blog how to using Notebook with Spark: http://blog.duyetdev.com/2016/09/chay-apache-spark-voi-jupiter-notebook.html
+See my blog how to using Notebook with Spark: https://blog.duyet.net/2016/09/chay-apache-spark-voi-jupiter-notebook.html
 
 ### ** Submit vn.vitk-3.0.jar to Spark in Notebook
 
